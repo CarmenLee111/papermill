@@ -365,6 +365,7 @@ papermill_translators.register("julia", JuliaTranslator)
 papermill_translators.register("matlab", MatlabTranslator)
 papermill_translators.register(".net-csharp", CSharpTranslator)
 papermill_translators.register(".net-fsharp", FSharpTranslator)
+papermill_translators.register("pysparkkernel", PythonTranslator)
 
 
 def translate_parameters(kernel_name, language, parameters):
